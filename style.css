@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Archivo Narrow", "sans-serif";
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#main {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    text-wrap-mode: wrap;
+}
+
+#spacer {
+    height: 100px;
+}
+#button-box {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#title {
+    font-size: 40px;
+}
+
+#banner {
+    border-bottom: 1px solid black;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    background-color: #738896; 
+    font-size: 20px; 
+    text-align: center; 
+    color: black;
+}
+
+
+#navigation {
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    gap: 25px;
+    display: flex;
+    overflow: hidden;
+}
+
+    #navigation a {
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        display: inline-block;
+        padding: 10px;
+        padding-top: 20px;
+    }
+
+#wordmark {
+    display: block;
+    width: 80px;
+}
+
+#titlecard {
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#index-main {
+    color:black;
+}
+
+#about-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    color: black;
+
+}
+
+
+.photographs {
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.button {
+    text-decoration: none;
+    width: 250px;
+    padding: 20px;
+    color: white;
+    background-color: #1c3f58;
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+    
+}
+
+    .button:hover {
+        border-width: 1px;
+        border-style: solid;
+    }
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    "auto header auto"
+    "auto auto auto";
+    gap: 15px;
+}
+
+.separator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;
+    font-size: 32px;
+    background-color: #738896;
+    width: 100%;
+}
+
+.focus:hover {
+    background-color: lightblue;
+    border-color: skyblue;
+    border-width: 1px;
+    border-style: solid;
+    scale: 1.1;
+    transition: 2s;
+    box-shadow: black;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.work-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+    .work-row:hover {
+        box-shadow: 0 0 10px #1c3f58;
+    }
+
+.work-image {
+    width: 200px;
+}
+
+.work {
+    text-decoration: none;
+    color: black;
+}
+
+.hero-image {
+    width: 30%;
+}

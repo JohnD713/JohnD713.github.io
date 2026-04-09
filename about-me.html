@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body id="about-main" onkeydown="onKeyPressed(event)" style="padding-top: 30px; background-image: linear-gradient(to right,#1c3f59, #738896); color: black;">
+    <header id="banner">
+    <!-- navbar  begin -->
+        <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img id="wordmark" src="images/Wordmark-Real2.png" alt="JAD block logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav  ms-auto me-auto">
+                    <li class="nav-item"><a class="focus nav-link" href="work.html"> Past Work </a></li>
+                    <li class="nav-item"><a class="focus nav-link active" href="about-me.html"> About Me </a></li>
+                    <li class="nav-item"><a class="focus nav-link" href="photography.html">Photography </a></li>
+                    <li class="nav-item"><a class="focus nav-link" href="contact.html"> Contact Me </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- navbar  end  -->
+    </header>
+
+    <div id="spacer"></div>
+
+
+    <div id="main" style="width: 40%;">
+        <img style="width: 200px; flex-direction: column;" src="images/jdickin4.jpg" alt="Profile picture of John Dickinson">
+        <p style="margin-top: 20px; flex-direction: column;"> 
+            My name is John Dickinson, I am a Software Development student from Wyoming with a particular interest in web development. I want to make quality, convenient software and hardware to enable others on their own endeavors.
+        </p>
+        <br>
+        <p>
+            I also do photography as a hobby with a focus on sweeping skies and playing with the glare of the sun, if that sounds interesting some of my work can be found on the <a href="photography.html"> photography page</a>.
+        </p>
+        <p>
+            Designer statement: This website was an exercise into full flegded web design for me, and serves as a baseline for a personal brand to be made later. The target audience is potential employers and clients, so the design is meant to be simple and easy to navigate while still being visually appealing. The color scheme is meant to be calming and professional, while the layout is meant to be easy to read and navigate.
+        </p>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script>
+    function onKeyPressed(event) {
+        if (event.key === "ArrowRight" || event.keyCode === 39) {
+            window.location.href = "photography.html";
+        }
+
+        if (event.keyCode === 37) { 
+            window.location.href = "work.html";
+        }
+    }
+</script>
+</html>
