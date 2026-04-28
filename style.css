@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
 
 
@@ -15,11 +16,13 @@ body {
     flex-direction: column;
     max-width: 70%;
     text-wrap-mode: wrap;
+    color: white;
 }
 
 #spacer {
     height: 100px;
 }
+
 #button-box {
     display: flex;
     justify-content: flex-end;
@@ -37,10 +40,14 @@ body {
     top: 0; 
     left: 0;
     right: 0;
-    background-color: #738896; 
+    background-color: #1f394A; 
     font-size: 20px; 
     text-align: center; 
-    color: black;
+    color: white;
+}
+
+#navbarNav {
+    color: white;
 }
 
 
@@ -51,12 +58,13 @@ body {
     gap: 25px;
     display: flex;
     overflow: hidden;
+    color: white;
 }
 
     #navigation a {
         text-decoration: none;
         text-align: center;
-        color: black;
+        color: White;
         display: inline-block;
         padding: 10px;
         padding-top: 20px;
@@ -74,7 +82,7 @@ body {
 }
 
 #index-main {
-    color:black;
+    color:white;
 }
 
 #about-main {
@@ -82,7 +90,7 @@ body {
     flex-direction: column;
     text-align: center;
     flex-wrap: wrap;
-    color: black;
+    color: White;
 
 }
 
@@ -125,18 +133,14 @@ body {
     align-items: center;    
     text-align: center;
     font-size: 32px;
-    background-color: #738896;
+    background-color: #2C5473;
     width: 100%;
+    color: white;
 }
 
 .focus:hover {
-    background-color: lightblue;
-    border-color: skyblue;
-    border-width: 1px;
-    border-style: solid;
-    scale: 1.1;
+    scale: 1.2;
     transition: 2s;
-    box-shadow: black;
 }
 
 .active {
@@ -162,9 +166,13 @@ body {
 
 .work {
     text-decoration: none;
-    color: black;
+    color: White;
 }
 
 .hero-image {
     width: 30%;
+}
+
+.nav-link {
+    color: white;
 }
