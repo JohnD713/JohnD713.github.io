@@ -145,6 +145,7 @@ body {
 
 .active {
     font-weight: bold;
+    color: white;
 }
 
 .work-row {
